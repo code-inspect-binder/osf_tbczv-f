@@ -1,0 +1,16 @@
+###############################################################################################
+
+This repository contains code to estimate parameters of the SAT models reported in: 
+
+Cavallaro, J-p., & Hawkins, G. E. (submitted). Speed-accuracy tradeoff in consumer-like preferential choice.
+
+This open source code is released under the license conditions listed on the OSF repository 
+hosting the code (osf.io/tbczv/). Please cite the paper if you make use of the code.
+
+###############################################################################################
+
+The repository is designed to be downloaded as a complete zipped directory. 
+
+The repository is separated into four folders: one for each experiment. In each experiment folder is an .r file for reading raw data (01-readData.r), preparing data for modelling (02-exclCriteria.r) and the raw data .txt file. The 'modelling' subfolder within each experiment folder contains scripts to estimate MNL and RDM models within each experiment, plus a processed dataset ".RData" object to be used with each model. Posterior predictive data, DIC and TRDM functions scripts are also within each modelling folder. The "modelFits" directory is a place holder to store the model output.
+
+Please contact me if you have any questions or find any bugs: jon-paul.cavallaro@uon.edu.au
